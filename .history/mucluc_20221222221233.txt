@@ -1,0 +1,3 @@
+============================== Những function hay sử dụng trong Javacript ===================================
+I. Sự kiện
+    -> selector.addEventListener("eventName", handler, [options])

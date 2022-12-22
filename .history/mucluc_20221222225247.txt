@@ -1,0 +1,18 @@
+============================== Những function hay sử dụng trong Javacript ===================================
+I. Sự kiện
+    -> selector.addEventListener("eventName", handler, [options])
+    I.1. Click
+
+        -> e.stopPropagation : để xử lý bubbling button
+        Câu hỏi : sự khác nhau giữa event.target và event.currentTarget
+
+        const button = document.querySelector(".button");
+        button.addEventListener("click", function (event) {
+            console.log(event.target);
+            console.log(event.currentTarget);
+        });
+
+        -> event.target : bấm cái gì thì nó ra cái đó
+        -> event.currentTarget : nó sẽ thể hiện element được add sư kiện
+
+    I.2. preventDefault()

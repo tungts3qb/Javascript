@@ -3,23 +3,8 @@ I. Sự kiện
     -> selector.addEventListener("eventName", handler, [options])
     I.1. Click
 
-        -> e.stopPropagation() : để xử lý bubbling button
-        -> event.stopImmediatePropagation(); : khi một element có 2 sự kiện thì sự kiện có function này sẽ ngăn chặn
-            sự kiện còn lại hoạt động. sự kiện muốn thực hiện thì để ở trên cùng
-
-            const span = document.querySelector(".btnSpan");
-            span.addEventListener("click", function (event) {
-                event.stopImmediatePropagation();
-                console.log("click span");
-            });
-
-            span.addEventListener("click", function (event) {
-                event.stopPropagation();
-                console.log("click span 2");
-            });
-
-
-        * Câu hỏi : sự khác nhau giữa event.target và event.currentTarget
+        -> e.stopPropagation : để xử lý bubbling button
+        Câu hỏi : sự khác nhau giữa event.target và event.currentTarget
 
         const button = document.querySelector(".button");
         button.addEventListener("click", function (event) {
