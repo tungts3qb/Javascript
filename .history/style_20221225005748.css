@@ -66,16 +66,10 @@
 /* ============ Tab.html ============= */
 
 .tab {
-  padding: 2.5rem;
-  border-radius: 1rem;
-  background-color: white;
-  display: inline-block;
-  position: relative;
-  left: 50%;
-  transform: translateX(-50%);
-  margin: 50px auto;
+  margin: 3rem auto;
+  width: 50%;
+  background-color: #fefefe;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-  width: 500px;
 }
 
 .tab-list {
@@ -86,14 +80,13 @@
 
 .tab-item {
   cursor: pointer;
-  padding: 1rem 2rem;
+  padding: 1.2rem 2rem;
   border-radius: 5rem;
   color: #818e9b;
   background-color: #f4f5f7;
   text-align: center;
   white-space: nowrap;
   font-weight: 500;
-  margin: 0 auto;
   flex: 1;
 }
 
@@ -118,15 +111,4 @@
 .post {
   display: flex;
   align-items: center;
-}
-
-.post:not(:first-child) {
-  margin-bottom: 2rem;
-}
-
-.post-title {
-  color: #4e4f51;
-  font-weight: 300;
-  line-height: 1.8;
-  font-size: 14px;
 }
