@@ -1,0 +1,29 @@
+.calculator {
+  width: 500px;
+  height: 700px;
+  border: 1px solid black;
+  margin: 5rem auto;
+}
+
+.calculator-header {
+  margin-top: 1rem;
+  padding-left: 1rem;
+}
+
+.calculator-nav {
+  padding-left: 1rem;
+  margin-top: 1rem;
+}
+
+.calculator-nav span {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.caculator-result {
+  border: 1px solid black;
+  margin-top: 1rem;
+  height: 100px;
+  text-align: center;
+  justify-content: flex-end;
+}

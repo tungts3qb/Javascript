@@ -1,0 +1,10 @@
+.calculator {
+  width: 500px;
+  height: 700px;
+  border: 1px solid black;
+  margin: 5rem auto;
+}
+
+.calculator-header {
+  margin-top: 0.5rem;
+}

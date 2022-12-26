@@ -163,6 +163,5 @@
 }
 
 .accordion-content.is-active {
-  /* display: block; */
-  height: auto;
+  display: block;
 }

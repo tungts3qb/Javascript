@@ -156,13 +156,9 @@
 }
 
 .accordion-content {
-  /* display: none; */
-  height: 0;
-  overflow: hidden;
-  transition: height 0.25s linear;
+  display: none;
 }
 
 .accordion-content.is-active {
-  /* display: block; */
-  height: auto;
+  display: block;
 }
