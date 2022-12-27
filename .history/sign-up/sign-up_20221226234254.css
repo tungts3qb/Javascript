@@ -1,0 +1,138 @@
+.sign-up-form {
+  width: 40%;
+  height: auto;
+  border: 1px solid black;
+  margin: 0 auto;
+  padding-bottom: 5rem;
+}
+
+.sign-up-icon img {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 1rem;
+  object-fit: cover;
+  margin-top: 5rem;
+}
+
+.sign-up-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sign-up-title {
+  text-align: center;
+  font-size: 30px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.sign-up-desc {
+  text-align: center;
+}
+
+.sign-up-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sign-up-google,
+.sign-up-twitter {
+  width: calc(100% - 2rem);
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  background-color: white;
+}
+
+.sign-up-google i,
+.sign-up-twitter i {
+  margin-right: 20px;
+  font-size: 20px;
+  margin: auto 0;
+  padding-right: 30px;
+}
+
+.sign-up-or {
+  text-align: center;
+  font-size: 17px;
+}
+
+.sign-up-input {
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* .sign-up-input-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+
+.sign-up-input {
+  width: calc(100% - 2rem);
+}
+
+.input_email,
+.input_password {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 2.5rem;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+
+.sign-up-email,
+.sign-up-password {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  color: rgb(94, 92, 92);
+}
+
+.input_email,
+.input_password {
+  outline-color: rgb(74, 127, 224);
+}
+
+.sign-up-password {
+  margin-top: 1rem;
+}
+
+.btn-signin {
+  margin-top: 1rem;
+  width: 100%;
+  height: 2.5rem;
+  border: none;
+  background-color: rgb(52, 52, 221);
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  text-align: center;
+}
+
+.signin-arrow {
+  margin-left: 10px;
+}
+
+.sign-up-or {
+  position: relative;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.sign-up-or::before {
+  position: absolute;
+  content: "";
+  top: 50%;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: rgb(73, 72, 72);
+  transform: translateY(-50%);
+  transform: translateZ(-1);
+}
